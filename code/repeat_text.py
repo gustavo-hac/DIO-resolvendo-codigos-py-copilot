@@ -10,4 +10,5 @@ if(times == 0):
   print("Sem texto pra você então: \n")
 else:
   text_concat = (text + " ") * int(times)
-  print("Texto repetido " + str(times) + " vezes:\n" + text_concat)
+  print(f"Texto repetido {times} vezes:")
+  print(text_concat)
